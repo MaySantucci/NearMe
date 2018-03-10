@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_profile_page"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/my_group_page"
+            android:title="@string/my_group" />
+        <item
+            android:id="@+id/my_pub_page"
+            android:title="@string/my_pub" />
+    </group>
+</menu>

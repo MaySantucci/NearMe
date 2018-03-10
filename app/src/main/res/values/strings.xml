@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Top On Concert</string>
+    <string name="my_profile">Il mio profilo</string>
+    <string name="my_group">Il mio gruppo</string>
+    <string name="my_pub">Il mio locale</string>
 </resources>
