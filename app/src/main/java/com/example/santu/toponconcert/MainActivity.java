@@ -10,9 +10,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.UiSettings;
+
 public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
+    private MapView mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+
+        //mMap = findViewById(R.id.map);
+        //mMap.setHorizontalScrollBarEnabled(false);
+        //mMap.setHorizontalScrollBarEnabled(false);
 
     }
 
