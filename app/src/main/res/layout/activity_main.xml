@@ -71,21 +71,20 @@
                 android:name="com.google.android.gms.maps.SupportMapFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="30"
+                android:layout_weight="20"
                 tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
-
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="30"
-                android:layout_margin="10dp"
-                android:text="Lista eventi"
-                android:layout_below="@id/map"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_weight="45"
+                android:text="LISTA EVENTI"
+                android:textAlignment="center"
+                android:paddingTop="10dp"/>
+
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
         </LinearLayout>
 
